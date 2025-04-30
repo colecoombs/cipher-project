@@ -1,0 +1,35 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cipher Playground</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Caesar & Scytale Cipher</h1>
+
+    <textarea id="inputText" placeholder="Enter your message..."></textarea>
+
+    <div class="controls">
+      <label for="cipherSelect">Cipher:</label>
+      <select id="cipherSelect">
+        <option value="caesar">Caesar Cipher</option>
+        <option value="scytale">Scytale Cipher</option>
+      </select>
+
+      <label for="keyInput">Key:</label>
+      <input type="number" id="keyInput" placeholder="Enter key" />
+
+      <button onclick="encrypt()"><i class="fas fa-shield-alt"></i> Encrypt</button>
+      <button onclick="decrypt()"><i class="fas fa-scroll"></i> Decrypt</button>      
+    </div>
+
+    <textarea id="outputText" readonly placeholder="Output appears here..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
