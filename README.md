@@ -1,1 +1,1 @@
-# cipher-project
+A project I completed for my final project in History-300. It is a simple website that encrypts and decrypts messages using the Caesar and Scytale ciphers. There are some basic styling elements as well.
